@@ -3,7 +3,7 @@ module top_module (
     output p1y,
     input p2a, p2b, p2c, p2d,
     output p2y );
-	  wire w1, w2, w3, w4;
+    wire w1, w2, w3, w4;
     assign w1 = (p1a & p1b & p1c);
     assign w2 = (p1d & p1e & p1f);
     assign p1y = (w1 | w2);
