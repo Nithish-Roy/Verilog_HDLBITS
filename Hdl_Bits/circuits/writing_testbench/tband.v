@@ -11,3 +11,4 @@ module top_module();
         in = 2'b10; #10;
         in = 2'b11; #10;
     end
+endmodule
